@@ -24,8 +24,11 @@ module MyCitiesocial
     config.generators do |g|
       g.assets false
       g.helper false
+
       g.rspec false
-      # self write
+      
+      g.factory_bot false
+    
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
