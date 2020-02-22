@@ -26,6 +26,15 @@ module MyCitiesocial
       g.helper false
       g.factory_bot false
     end
+    config.generators do |g|
+      g.rspec false
+      g.test_framework :rspec
+      g.helper_specs false
+      g.controller_specs false
+      g.view_specs false
+      g.routing_specs false
+      g.request_specs false
+    end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
