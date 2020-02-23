@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    aasm (5.0.6)
+      concurrent-ruby (~> 1.0)
     actioncable (6.0.2.1)
       actionpack (= 6.0.2.1)
       nio4r (~> 2.0)
@@ -284,6 +286,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aasm (~> 5.0, >= 5.0.6)
   acts_as_list (~> 1.0)
   bootsnap (>= 1.4.2)
   byebug
@@ -292,6 +295,7 @@ DEPENDENCIES
   devise (~> 4.7, >= 4.7.1)
   factory_bot_rails (~> 5.1, >= 5.1.1)
   faker (~> 2.10)
+  faraday (~> 1.0)
   figaro (~> 1.1, >= 1.1.1)
   foreman (~> 0.86.0)
   friendly_id (~> 5.3)
